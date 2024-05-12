@@ -7,10 +7,6 @@ terraform {
   }
 }
 
-provider "aws" {
-  region = var.region
-}
-
 # LifeCycleHook for AutoScalingGroup (NodeGroup)
 ## Ec2Ins LcHook is for ENI Attach Lambda Call
 resource "aws_autoscaling_lifecycle_hook" "LchookEc2InsNg1" {

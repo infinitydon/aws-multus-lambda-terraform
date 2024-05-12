@@ -1,9 +1,3 @@
-variable "region" {
-  description = "Region"
-  type        = string
-  default     = "us-west-2"
-}
-
 variable "instance" {
   description = "Name of the CNF instance that is been deployed like du,cu,core,upf"
   type        = string  
